@@ -18,7 +18,8 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-grey-400 '>
-      <img onClick={()=>navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" />
+      {/* <img onClick={()=>navigate('/')} className='w-44 cursor-pointer' src={assets.logo} alt="" /> */}
+      <p onClick={()=>navigate('/')} className='font-bold text-4xl text-blue-500 cursor-pointer'>HealthSync</p>
       <ul className='hidden md:flex items-start gap-5 font-medium'>
         <NavLink to='/'>
             <li className='py-1'>HOME</li>
@@ -36,6 +37,7 @@ const Navbar = () => {
             <li className='py-1'>CONTACT</li>
             <hr className='border-none outline-none h-0.5 bg-blue-300 w-3/5 m-auto hidden' />
         </NavLink >
+        <a target="_blank" href="http://localhost:5174" className="border px-5 text-xs py-1.5 rounded-full font-medium">Admin Panel</a>
       </ul>
       <div className='flex item-center gap-4'>
        

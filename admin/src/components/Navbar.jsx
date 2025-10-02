@@ -23,7 +23,8 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center px-4 sm:px-10 py-3 border-b bg-white'>
       <div className='flex items-center text-xs gap-2'>
-        <img className='w-36 sm:w-40 cursor-pointer' src={assets.admin_logo} alt="" />
+        {/* <img className='w-36 sm:w-40 cursor-pointer' src={assets.admin_logo} alt="" /> */}
+        <p onClick={()=>navigate('/')} className='font-bold text-4xl text-blue-500 cursor-pointer'>HealthSync</p>
         <p className='border px-2.5 py-0.5 rounded-full border-gray-500 text-gray-600'>{aToken ? 'Admin':'Doctor'}</p>
       </div>
       <button onClick={logout} className='bg-blue-500 text-white text-sm px-10 py-2 rounded-full'>Logout</button>

@@ -8,8 +8,9 @@ const Footer = () => {
 
             {/* -----left section------ */}
               <div>
-                <img className='mb-5  w-40' src={assets.logo} alt="" />
-                <p className='w-full md:w-2/3 text-gray-600 leading-6'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                {/* <img className='mb-5  w-40' src={assets.logo} alt="" /> */}
+                <p  className='font-bold text-4xl text-blue-500 cursor-pointer'>HealthSync</p>
+                <p className='w-full md:w-2/3 text-gray-600 leading-6'>HealthSync – Smart Healthcare Made Simple. Connect with trusted doctors, book appointments easily, and manage your health records securely, all from one easy-to-use platform. Our mission is to make healthcare accessible, convenient, and stress-free for everyone</p>
               </div>
 
 
@@ -37,7 +38,7 @@ const Footer = () => {
         {/* ------Copyright text------- */}
         <div>
             <hr />
-            <p className='text-sm text-center py-5'>Copyright ©2025 Prescripto - All Right Reserved.</p>
+            <p className='text-sm text-center py-5'>Copyright ©2025 HealthSync - All Right Reserved.</p>
         </div>
     </div>
   )
