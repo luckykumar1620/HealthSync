@@ -84,6 +84,7 @@ const Appointment = () => {
     if(!token){
       toast.warn('please login to book appointment')
       navigate('/login')
+      return
     }
 
     try {
